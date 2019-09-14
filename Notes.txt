@@ -122,6 +122,12 @@ Steps to go from Version 2.000 to Version 3.000
 			Create the Matthew5ObjFiles directory in your solution directory and copy over all 4 files.
 				box.obj, box.mtl, Elephant.obj, Elephant.mtl 
 				
+				NOTE!! On github the "Elephant.obj" file has been renamed to "Elephant.obj_REMOVE_THIS". 
+					This is because visual studio also has obj files and we don't want them on github.
+					So, to get the "Elephant.obj" file to upload to github I had to change its extension 
+					from ".obj" to ".obj_REMOVE_THIS". After downloading from github you will need to 
+					change it back.
+				
 		ToDo - We want to be able to add geometry files to this directory at any time and use 
 			them. However, the Matthew5 application could be located anywhere on the computer 
 			so we need a mechanism to find the "Matthew5ObjFiles" directory.
