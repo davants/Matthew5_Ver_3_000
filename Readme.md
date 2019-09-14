@@ -49,7 +49,7 @@ Goals:<br />
 		Add support for other types of scene objects beyond the single triangle. 
 			The other geometry will be from external files.
 			All geometry based on file loads. All, even box.
-			File format ".obj" is supported to some leve. See the Notes.txt doc for 
+			File format ".obj" is supported to some level. See the Notes.txt doc for 
 			details. Also, because of github settings to exclude un-needed visual studio files the ".obj" 
 			example geometry file "Elephant.obj" had to have its extension changed to ".obj_REMOVE_THIS". 
 			After downloading the extension should be changed back to ".obj".
