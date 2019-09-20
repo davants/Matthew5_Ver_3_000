@@ -53,10 +53,9 @@ Goals:<br />
 			details. Also, because of github settings to exclude un-needed visual studio files the ".obj" 
 			example geometry file "Elephant.obj" had to have its extension changed to ".obj_REMOVE_THIS". 
 			After downloading the extension should be changed back to ".obj".
-			<span style=color:red;>IMPORTANT</span> If you do not change the ".obj_REMOVE_THIS" extensions to ".obj" this 
-			app will not run correctly!  
+			  
 		
-	<br />
+	
 	Each new version will add a small amount of functionality to keep learning easier.<br />
 
 	This repository will not be updated to add new functionality.
@@ -69,6 +68,10 @@ Goals:<br />
 	red/maroon. 
 
 <br />
+
+<span style=color:red;>IMPORTANT</span> If you do not change the ".obj_REMOVE_THIS" extensions to ".obj" this 
+			app will not run correctly! Look in the Matthew5ObjFiles directory. The reason is that 
+			visual studio also has .obj file and I don't want visual studio obj files on github.
 
 <br />	
 Matthew5Graphics lib<br />
