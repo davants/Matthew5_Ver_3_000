@@ -110,23 +110,18 @@ Steps to go from Version 2.000 to Version 3.000
 		
 		ToDo - In the Matthew5 Version 3 source there are some new obj files for testing.
 			In the solution directory there is a new sub-directory named Matthew5ObjFiles. In this 
-			directory you will see files that contain the geometry for 2 new shapes. One is 
-			a box and the other is an odd shaped box called "Elephant". Each geometry shape 
-			is defined in 2 files; the ".obj" file and the corresponding ".mtl" file.
+			directory you will see files that contain the geometry for a new shape. It is an odd 
+			shaped box called "Elephant". Each geometry shape is defined in 2 files; the ".obj" 
+			file and the corresponding ".mtl" file.
 			These shapes were created in Blender, a free 3D graphics developement environment.
 			https://www.blender.org/
 			
 			In the Matthew5ObjFiles directory there is also a file named "BlenderExportInstructions.txt" 
 			which contains the export settings used for these two geometry exports.
 			
-			Create the Matthew5ObjFiles directory in your solution directory and copy over all 4 files.
-				box.obj, box.mtl, Elephant.obj, Elephant.mtl 
+			Create the Matthew5ObjFiles directory in your solution directory and copy over 2 files.
+				Elephant.obj, Elephant.mtl 
 				
-				NOTE!! On github the "Elephant.obj" file has been renamed to "Elephant.obj_REMOVE_THIS". 
-					This is because visual studio also has obj files and we don't want them on github.
-					So, to get the "Elephant.obj" file to upload to github I had to change its extension 
-					from ".obj" to ".obj_REMOVE_THIS". After downloading from github you will need to 
-					change it back.
 				
 		ToDo - We want to be able to add geometry files to this directory at any time and use 
 			them. However, the Matthew5 application could be located anywhere on the computer 
