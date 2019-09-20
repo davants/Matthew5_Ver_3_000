@@ -69,7 +69,7 @@ Goals:<br />
 
 <br />
 
-<span style=color:red;>IMPORTANT</span> If you do not change the ".obj_REMOVE_THIS" extensions to ".obj" this 
+<p style="color:red;">IMPORTANT</p> If you do not change the ".obj_REMOVE_THIS" extensions to ".obj" this 
 			app will not run correctly! Look in the Matthew5ObjFiles directory. The reason is that 
 			visual studio also has .obj file and I don't want visual studio obj files on github.
 
