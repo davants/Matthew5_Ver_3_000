@@ -53,7 +53,8 @@ Goals:<br />
 			details. Also, because of github settings to exclude un-needed visual studio files the ".obj" 
 			example geometry file "Elephant.obj" had to have its extension changed to ".obj_REMOVE_THIS". 
 			After downloading the extension should be changed back to ".obj".
-		
+			<span style=color:red;>IMPORTANT</span> If you do not change the ".obj_REMOVE_THIS" extensions to ".obj" this 
+			app will not run correctly!  
 		
 	<br />
 	Each new version will add a small amount of functionality to keep learning easier.<br />
