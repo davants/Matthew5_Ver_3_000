@@ -73,6 +73,7 @@ Goals:<br />
 			app will not run correctly! Look in the Matthew5ObjFiles directory. The reason is that 
 			visual studio also has .obj file and I don't want visual studio obj files on github.
 <br />  
+<br />       			
 <br />	
 Matthew5Graphics lib<br />
 	Version 3.000<br />
