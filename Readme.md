@@ -50,11 +50,7 @@ Goals:<br />
 			The other geometry will be from external files.
 			All geometry based on file loads. All, even box.
 			File format ".obj" is supported to some level. See the Notes.txt doc for 
-			details. Also, because of github settings to exclude un-needed visual studio files the ".obj" 
-			example geometry file "Elephant.obj" had to have its extension changed to ".obj_REMOVE_THIS". 
-			After downloading the extension should be changed back to ".obj".
-			  
-		
+			details. 		
 	
 	Each new version will add a small amount of functionality to keep learning easier.<br />
 
